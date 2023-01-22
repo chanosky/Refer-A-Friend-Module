@@ -5,7 +5,7 @@ Library  OperatingSystem
 
 #Global
 Variables   ${EXECDIR}/AmaysimDashboard/GlobalSettings/GlobalTestData/GlobalTestData.py
-Variables   ${EXECDIR}/AmaysimDashboard/GlobalSettings/GlobalKeywords/GlobalKeywordsSupport.py
+Resource   ${EXECDIR}/AmaysimDashboard/GlobalSettings/GlobalKeywords/GlobalKeywordsSupport.robot
 
 #HomePage
 Variables   ${EXECDIR}/AmaysimDashboard/HomePage/HomePageResource/HomePageLocators/HomePageLocators.py

@@ -7,16 +7,16 @@ Resource    ${EXECDIR}/AmaysimDashboard/GlobalSettings/GlobalResource/GlobalSett
 
 *** Test Cases ***
 #User should be able to navigate to Refer a friend Page
-#    Open Amaysim site using a browser   ${DEVhomepageurl}   ${chrome}
+#    Open Amaysim site using a browser   ${DEVhomepageurl}   ${TD_browser}
 #    Check Homepage Url and should be correct      ${DEVhomepageurl}
 #    Click Login Link
-#    Input User Credentials  ${username}     ${password}
+#    Input User Credentials  ${TD_username}     ${TD_password}
 #    Navigate to My Account Page
 #    Navigate to Data Plan Page
 #    Navigate to Refer a friend Page
 
 User should be able to verify Refer a friend contents
-    Open Amaysim site using a browser   ${TD_DEVhomepageurl}   ${TD_chrome}
+    Open Amaysim site using a browser   ${TD_DEVhomepageurl}   ${TD_browser}
     Check Homepage Url and should be correct      ${TD_DEVhomepageurl}
     Click Login Link
     Input User Credentials  ${TD_username}     ${TD_password}
@@ -27,7 +27,7 @@ User should be able to verify Refer a friend contents
     Close browser
 
 User should be able to verify Refer a friend contents after sharing
-    Open Amaysim site using a browser   ${TD_DEVhomepageurl}   ${TD_chrome}
+    Open Amaysim site using a browser   ${TD_DEVhomepageurl}   ${TD_browser}
     Check Homepage Url and should be correct      ${TD_DEVhomepageurl}
     Click Login Link
     Input User Credentials  ${TD_username}     ${TD_password}
@@ -40,7 +40,7 @@ User should be able to verify Refer a friend contents after sharing
     Close browser
 
 Verify that user should be able to copy referral link
-    Open Amaysim site using a browser   ${TD_DEVhomepageurl}   ${TD_chrome}
+    Open Amaysim site using a browser   ${TD_DEVhomepageurl}   ${TD_browser}
     Check Homepage Url and should be correct      ${TD_DEVhomepageurl}
     Click Login Link
     Input User Credentials  ${TD_username}     ${TD_password}
@@ -51,7 +51,7 @@ Verify that user should be able to copy referral link
     Close browser
 
 Verify that user should be able to download Terms file
-    Open Amaysim site using a browser   ${TD_DEVhomepageurl}   ${TD_chrome}
+    Open Amaysim site using a browser   ${TD_DEVhomepageurl}   ${TD_browser}
     Check Homepage Url and should be correct      ${TD_DEVhomepageurl}
     Click Login Link
     Input User Credentials  ${TD_username}     ${TD_password}
@@ -62,7 +62,7 @@ Verify that user should be able to download Terms file
     Close browser
 
 Verify that user should not be able to share by using an invalid email
-    Open Amaysim site using a browser   ${TD_DEVhomepageurl}   ${TD_chrome}
+    Open Amaysim site using a browser   ${TD_DEVhomepageurl}   ${TD_browser}
     Check Homepage Url and should be correct      ${TD_DEVhomepageurl}
     Click Login Link
     Input User Credentials  ${TD_username}     ${TD_password}
@@ -74,7 +74,7 @@ Verify that user should not be able to share by using an invalid email
     Close browser
 
 Verify that user should not be able to share by using an blank message
-    Open Amaysim site using a browser   ${TD_DEVhomepageurl}   ${TD_chrome}
+    Open Amaysim site using a browser   ${TD_DEVhomepageurl}   ${TD_browser}
     Check Homepage Url and should be correct      ${TD_DEVhomepageurl}
     Click Login Link
     Input User Credentials  ${TD_username}     ${TD_password}
@@ -86,7 +86,7 @@ Verify that user should not be able to share by using an blank message
     Close browser
 
 Verify that user should be able to share using to Messenger
-    Open Amaysim site using a browser   ${TD_DEVhomepageurl}   ${TD_chrome}
+    Open Amaysim site using a browser   ${TD_DEVhomepageurl}   ${TD_browser}
     Check Homepage Url and should be correct      ${TD_DEVhomepageurl}
     Click Login Link
     Input User Credentials  ${TD_username}     ${TD_password}
@@ -99,7 +99,7 @@ Verify that user should be able to share using to Messenger
     Close browser
 
 Verify that user should be able to share using to Facebook
-    Open Amaysim site using a browser   ${TD_DEVhomepageurl}   ${TD_chrome}
+    Open Amaysim site using a browser   ${TD_DEVhomepageurl}   ${TD_browser}
     Check Homepage Url and should be correct      ${TD_DEVhomepageurl}
     Click Login Link
     Input User Credentials  ${TD_username}     ${TD_password}
@@ -112,7 +112,7 @@ Verify that user should be able to share using to Facebook
     Close browser
 
 Verify that user should be able to share using to Twitter
-    Open Amaysim site using a browser   ${TD_DEVhomepageurl}   ${TD_chrome}
+    Open Amaysim site using a browser   ${TD_DEVhomepageurl}   ${TD_browser}
     Check Homepage Url and should be correct      ${TD_DEVhomepageurl}
     Click Login Link
     Input User Credentials  ${TD_username}     ${TD_password}
@@ -125,7 +125,7 @@ Verify that user should be able to share using to Twitter
     Close browser
 
 Verify that user should be able to go back to share page after clicking share again button
-    Open Amaysim site using a browser   ${TD_DEVhomepageurl}   ${TD_chrome}
+    Open Amaysim site using a browser   ${TD_DEVhomepageurl}   ${TD_browser}
     Check Homepage Url and should be correct      ${TD_DEVhomepageurl}
     Click Login Link
     Input User Credentials  ${TD_username}     ${TD_password}
