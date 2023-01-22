@@ -2,7 +2,7 @@
 TD_DEVhomepageurl= "https://www.amaysim.com.au/"
 TD_STAGINGhomepageurl = "https://www.amaysim.com.au/"
 TD_PRODhomepageurl = "https://www.amaysim.com.au/"
-TD_browser = "firefox" #change to firefox, headlesschrome or headlessfirefox
+TD_browser = "headlesschrome" #change to chrome, firefox, headlesschrome or headlessfirefox
 TD_downloaddirectory = "/AmaysimDashboard/Download"
 TD_downloaddirectory_os = "AmaysimDashboard\\Download"
 TD_executablepathchrome = "AmaysimDashboard\\GlobalSettings\\GlobalResource\\chromedriver.exe"
