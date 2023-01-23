@@ -31,11 +31,12 @@ Please see below the step-by-step procedure for fetching the robot framework scr
 
 1. Install Python on your system. You can download the latest version from the official website: [https://www.python.org/downloads/](https://www.python.org/downloads/)
 2. Make sure to add the PATH to your environmental variables, see here https://www.liquidweb.com/kb/how-do-i-set-system-variable-path-for-python-on-windows/
-3. Open a command prompt or terminal window and navigate to the directory where you want to store the script.
-4. Use the command `git clone` followed by the repository url to fetch the script from GitHub, for example: `git clone https://github.com/chanosky/Refer-A-Friend-Module` or just download the repository to your desired location.
-5. Navigate into the cloned repository by using the command `cd yourrepository`
-6. Install the necessary requirements by running the command `pip install -r requirements.txt`
-7. To run the script, use the command `robot --outputdir .\AmaysimDashboard\Results .\AmaysimDashboard\DataPlanPage\DataPlanPageTest\DataPlanPageTest.robot`
+3. Verify installation is successful by running `pip --version` in command line
+4. Open a command prompt or terminal window and navigate to the directory where you want to store the script.
+5. Use the command `git clone` followed by the repository url to fetch the script from GitHub, for example: `git clone https://github.com/chanosky/Refer-A-Friend-Module` or just download the repository to your desired location.
+6. Navigate into the cloned repository by using the command `cd yourrepository`
+7. Install the necessary requirements by running the command `pip install -r requirements.txt`
+8. To run the script, use the command `robot --outputdir .\AmaysimDashboard\Results .\AmaysimDashboard\DataPlanPage\DataPlanPageTest\DataPlanPageTest.robot`
 
 ## Limitations
 
