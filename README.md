@@ -58,17 +58,17 @@ It is important to keep these limitations in mind when using this script and to 
 
 ## Bugs and issues found
 
-Share Button
-	- CORS issue? After many attempts to share, it will have an issue and user will not be able to share anymore, if this is expected, the site should have an error message which indicates the error to the user.
+1. Share Button
+    - CORS issue? After many attempts to share, it will have an issue and user will not be able to share anymore, if this is expected, the site should have an error message which indicates the error to the user.
 
-Send to Email box
-	- should not accept invalid emails
-		- sample test data www@test.com!!
-		- email with leading spaces (   space@test.com)
-		- email with more that 254 characters
+2. Send to Email box
+    - should not accept invalid emails
+        - sample test data www@test.com!!
+        - email with leading spaces (   space@test.com)
+        - email with more that 254 characters
 
-Personalized box
-	- No validations for how many characters max
-	- Accepts "spaces only", it should not accept spaces only.
+3. Personalized box
+    - No validations for how many characters max
+    - Accepts "spaces only", it should not accept spaces only.
 	
-Webpage loads very slow
+4. Webpage loads very slow
